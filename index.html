@@ -226,6 +226,37 @@
       </div>
     </div>
   </div>
+  <section class="section" style="padding: 3rem 2rem;">
+  <div class="container is-max-desktop">
+    
+    <!-- 标题部分 -->
+    <div class="content" style="max-width: 1000px; margin: 0 auto;">
+      <h2 class="title is-3" style="color: #4a235a; text-align: center;">
+        Comparative Study on Segmentation and Reconstruction 
+      </h2>
+      <p style="font-size: 1.1rem; line-height: 1.8; text-align: left;">
+        We conduct open-vocabulary segmentation comparison experiments on the LERF-Mask dataset and reconstruction quality comparison experiments on the Mip-NeRF 360 dataset. The results show that our method improves semantic segmentation accuracy, especially at boundaries, without compromising image reconstruction quality.
+      </p>
+    </div>
+
+    <!-- 图表部分 -->
+    <figure class="image" style="margin: 2rem auto; text-align: center;">
+    <img src="static/images/visual.png" alt="Open-vocabulary Segmentation Comparison" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); max-width: 40%; height: auto; display: block; margin: 0 auto;">
+    <figcaption style="font-size: 0.9rem; color: #4a235a; margin-top: 0.5rem;">Figure 1: The visualization comparison results on the LERF-Mask dataset.</figcaption>
+    </figure>
+    <figure class="image" style="margin: 2rem auto; text-align: center;">
+      <img src="static/images/rec.png" alt="Comparative Study of Reconstruction Quality" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); max-width: 800%; height: auto;">
+      <figcaption style="font-size: 0.9rem; color: #4a235a; margin-top: 0.5rem;">Figure 2: The visualization comparison results of reconstruction quality.</figcaption>
+    </figure>
+
+    <!-- 结尾部分 -->
+    <div class="content" style="max-width: 1000px; margin: 2rem auto;">
+      <p style="font-size: 1.1rem; line-height: 1.8; text-align: left;">
+        In this work, we propose GradiSeg, a novel framework for 3D semantic segmentation that effectively addresses issues of imprecise object boundaries in segmentation tasks. By integrating two boundary enhancement modules: Identity Gradient Guided Densification and Local Adaptive K-Nearest Neighbors, Our method adaptively refines Gaussians near boundaries while establishing Identity Encoding consistency within local 3D spaces, effectively preventing erroneous Gaussian feature propagation. These innovations enhance overall segmentation quality and mitigate boundary segmentation ambiguity. Comprehensive experiments on the LERF-Mask and MipNeRF 360 datasets demonstrate the superior performance of our GradiSeg.
+    </div>
+
+  </div>
+</section>
 </footer>
 
 <!-- Statcounter tracking code -->
