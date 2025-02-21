@@ -208,7 +208,8 @@
       </div>
     </div>
   </div>
-<section class="section" style="padding: 3rem 2rem;">
+
+     <section class="section" style="padding: 3rem 2rem;">
   <div class="container is-max-desktop">
     
     <!-- 标题部分 -->
@@ -222,36 +223,19 @@
     </div>
 
     <!-- 图表部分 -->
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 2rem; margin-top: 2rem;">
-      <figure class="image" style="text-align: center;">
-        <img src="static/images/visual.png" 
-             alt="Open-vocabulary Segmentation Comparison"  
-             style="width: 80%; max-width: 800px; height: auto; 
-                    border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
-        <figcaption style="font-size: 0.9rem; color: #4a235a; 
-                           margin-top: 0.5rem; font-style: italic;">
-          Figure 1: The visualization comparison results on the LERF-Mask dataset.
-        </figcaption>
-      </figure>
-
-      <figure class="image" style="text-align: center;">
-        <img src="static/images/rec.png" 
-             alt="Comparative Study of Reconstruction Quality"  
-             style="width: 80%; max-width: 800px; height: auto; 
-                    border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
-        <figcaption style="font-size: 0.9rem; color: #4a235a; 
-                           margin-top: 0.5rem; font-style: italic;">
-          Figure 2: The visualization comparison results of reconstruction quality.
-        </figcaption>
-      </figure>
-    </div>
+    <figure class="image" style="margin: 2rem auto; text-align: center;">
+    <img src="static/images/visual.png" alt="Open-vocabulary Segmentation Comparison"  max-width: 200%; height: auto; style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);display: block; margin: 0 auto;">
+    <figcaption style="font-size: 0.9rem; color: #4a235a; margin-top: 0.5rem;">Figure 1: The visualization comparison results on the LERF-Mask dataset.</figcaption>
+    </figure>
+    <figure class="image" style="margin: 2rem auto; text-align: center;">
+      <img src="static/images/rec.png" alt="Comparative Study of Reconstruction Quality"  max-width: 200%; height: auto; style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); display: block; margin: 0 auto;">
+      <figcaption style="font-size: 0.9rem; color: #4a235a; margin-top: 0.5rem;">Figure 2: The visualization comparison results of reconstruction quality.</figcaption>
+    </figure>
 
     <!-- 结尾部分 -->
     <div class="content" style="max-width: 1000px; margin: 2rem auto;">
       <p style="font-size: 1.1rem; line-height: 1.8; text-align: left;">
         In this work, we propose GradiSeg, a novel 3D semantic segmentation framework that enhances boundary precision. By integrating Identity Gradient Guided Densification and Local Adaptive K-Nearest Neighbors, our method refines Gaussians near boundaries and ensures Identity Encoding consistency in local 3D spaces, reducing feature propagation errors. Experiments on LERF-Mask and MipNeRF 360 confirm GradiSeg’s superior performance in segmentation quality.
-      </p>
-    </div>
 
   </div>
 </section>
